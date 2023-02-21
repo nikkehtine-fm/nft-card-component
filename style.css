@@ -7,9 +7,39 @@
 :root {
   --clr-sblue: hsl(215, 51%, 70%);
   --clr-cyan: hsl(178, 100%, 50%);
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --bg-line: hsl(215, 32%, 27%);
 }
 
 body {
   height: 100vh;
   width: 100vw;
+  background-color: var(--bg-main);
+  color: var(--clr-sblue);
+  font-family: Outfit, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: inherit;
+  color: white;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+a,
+a:hover,
+a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  color: var(--bg-line);
 }
