@@ -22,10 +22,35 @@ body {
   font-weight: 400;
 }
 
-h1 {
-  font-family: inherit;
-  color: white;
+.bits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: var(--clr-cyan);
   font-weight: 600;
+}
+
+.info img {
+  margin-right: 0.5rem;
+}
+
+.author-avatar {
+  border: 2px solid white;
+  border-radius: 96px;
+}
+
+h1 {
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 p {
@@ -41,5 +66,5 @@ a:visited {
 }
 
 hr {
-  color: var(--bg-line);
+  border-color: var(--bg-line);
 }
