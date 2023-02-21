@@ -34,6 +34,13 @@ section {
   max-width: 100%;
 }
 
+h1 {
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .bits {
   display: flex;
   justify-content: space-between;
@@ -49,17 +56,6 @@ section {
   font-weight: 600;
 }
 
-.info img {
-  margin-right: 0.5rem;
-}
-
-h1 {
-  color: white;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 1.6rem;
-}
-
 p {
   font-weight: 300;
 }
@@ -69,6 +65,7 @@ a:visited {
   color: white;
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 a:hover {
@@ -87,12 +84,19 @@ p,
   margin-block: 1rem;
 }
 
+.info img {
+  margin-right: 0.5rem;
+}
+
 img.author-avatar {
   height: 2rem;
   border: 2px solid white;
   border-radius: 96px;
-  margin-block: 1rem;
   margin-right: 1rem;
+}
+
+.author {
+  margin-block-start: 1rem;
 }
 
 .author > span {
